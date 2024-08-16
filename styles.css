@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #005b67;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header-content h1 {
+  margin: 0;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.top-bar {
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.accessibility span,
+.accessibility a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-bottom {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.helpline {
+  color: red;
+}
+
+footer {
+  background-color: #005b67;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
